@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(22, 2, 41);
+}
+
+.conteiner {
+    max-width: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+form h1 {
+    margin-top: 16px;
+    color: white;
+}
+
+input,
+.botao {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    
+}
+
+input {
+    margin-top: 5px;
+}
+
+#form {
+    text-align: center;
+    display: none;
+}
+
+.botao {
+    margin-top: 5px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.mensagemsucesso {
+    display: none;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mansagemfalha {
+    display: none;
+    background-color: red;
+        padding: 10px;
+        color: white;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+}
+
